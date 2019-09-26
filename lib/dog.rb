@@ -8,15 +8,8 @@ class Dog
   def name
     @name
   end
+
+  def bark
+    puts "Woof!"
+  end
 end
-
-fido = Dog.new
-fido.name = "Fido"
-
-puts fido.name
-
-def bark
-  puts "Woof!"
-end
-
-puts fido.bark
